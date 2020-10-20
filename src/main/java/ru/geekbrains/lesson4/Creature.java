@@ -13,6 +13,9 @@ public class Creature implements Contestant {
         this.species = species;
         this.name = name;
         this.continueCompetition = true;
+        this.distanceMaxLimit = distanceMaxLimit;
+        this.heightMaxLimit = heightMaxLimit;
+        this.continueCompetition = true;
     }
 
 

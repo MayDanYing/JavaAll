@@ -2,7 +2,6 @@ package ru.geekbrains.lesson4;
 
 public class Creature implements Contestant {
 
-
     private String species;
     private String name;
     private int distanceMaxLimit;

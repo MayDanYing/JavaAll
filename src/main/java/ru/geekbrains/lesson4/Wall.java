@@ -8,7 +8,8 @@ public class Wall extends Obstacle {
     }
 
     @Override
-    public String action(Contestant contestants) {
+    public String action(Contestant contestants)
+    {
         return contestants.jump(height);
     }
 }

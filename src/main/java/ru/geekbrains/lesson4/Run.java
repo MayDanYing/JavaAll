@@ -3,7 +3,8 @@ package ru.geekbrains.lesson4;
 public class Run extends Obstacle {
     private int distance;
 
-    public Run(int distance) {
+    public Run(int distance)
+    {
         this.distance = distance;
     }
 

@@ -12,6 +12,7 @@ package ru.geekbrains.lesson4;
 //        заставьте всех участников пройти этот набор препятствий.
 
 public class main {
+
     public static void main(String[] args) {
         Competition first = new Competition(new Run(3000), new Wall(1.0));
         Competitors competitors = new Competitors("Array of competitors",
@@ -21,7 +22,6 @@ public class main {
         first.action(competitors);
         competitors.Info();
            }
-
     }
 
 

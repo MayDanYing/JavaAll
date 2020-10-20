@@ -1,6 +1,7 @@
 package ru.geekbrains.lesson4;
 //создание массива препятствий
 public class Competition {
+
     private Obstacle[] obstacles;
 
     public Competition(Obstacle... obstacles) {

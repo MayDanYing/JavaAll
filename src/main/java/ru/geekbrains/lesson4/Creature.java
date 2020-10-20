@@ -17,14 +17,12 @@ public class Creature implements Contestant {
         this.continueCompetition = true;
     }
 
-
     public String run(int distance) {
         if (distance <= distanceMaxLimit) {
             return  (species + " " + name + " made the distance to the finish line!");
         } else {
             continueCompetition = false;
             return  (species + " " + name + " didn't manage to the finish line:(");
-
         }
     }
     public String jump(double height) {

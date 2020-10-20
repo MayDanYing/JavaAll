@@ -2,6 +2,7 @@ package ru.geekbrains.lesson4;
 // массив участников
 
 public class Competitors {
+
     private String name;
     private Contestant[] contestants;
     private StringBuilder results;

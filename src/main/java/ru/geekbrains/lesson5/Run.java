@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson4;
+package ru.geekbrains.lesson5;
 
 public class Run extends Obstacle {
 
@@ -13,4 +13,6 @@ public class Run extends Obstacle {
     public String action(Contestant contestants) {
         return contestants.run(distance);
     }
+
+
 }

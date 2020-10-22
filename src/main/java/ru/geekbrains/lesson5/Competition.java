@@ -1,12 +1,11 @@
-package ru.geekbrains.lesson4;
+package ru.geekbrains.lesson5;
 //создание массива препятствий
 public class Competition {
 
     private Obstacle[] obstacles;
 
     public Competition(Obstacle... obstacles) {
-        this.obstacles = obstacles;
-    }
+        this.obstacles = obstacles;}
 
     void action(Competitors competitors) {
         Contestant[] contestants = competitors.getContestants();

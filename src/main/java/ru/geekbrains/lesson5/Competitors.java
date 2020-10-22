@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson4;
+package ru.geekbrains.lesson5;
 // массив участников
 
 public class Competitors {
@@ -28,4 +28,5 @@ public class Competitors {
     public void Info() {
           System.out.print(results);
     }
+
 }

@@ -10,4 +10,5 @@ public class Fish extends Creature implements AbleToSwim {
     public String swim() {
         return new String("is able to swim");
     }
+
 }

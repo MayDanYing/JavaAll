@@ -15,4 +15,5 @@ public interface Contestant {
     public String getResult();
 
     boolean isContinueCompetition();
+
 }

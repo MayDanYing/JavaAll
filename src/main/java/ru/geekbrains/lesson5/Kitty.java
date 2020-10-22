@@ -1,5 +1,4 @@
 package ru.geekbrains.lesson5;
-
 public class Kitty extends Creature {
 
     public Kitty(String name) {

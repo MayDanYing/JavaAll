@@ -13,4 +13,5 @@ public class Run extends Obstacle {
     public String action(Contestant contestants) {
         return contestants.run(distance);
     }
+
 }

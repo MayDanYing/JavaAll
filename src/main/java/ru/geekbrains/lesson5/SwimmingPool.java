@@ -13,4 +13,5 @@ public class SwimmingPool extends Obstacle {
         }
         return new String(contestants.getResult() + "swim in the swimming pool");
     }
+
 }

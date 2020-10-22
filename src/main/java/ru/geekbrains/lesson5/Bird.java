@@ -7,7 +7,6 @@ public class Bird extends Creature implements AbleToFly {
 
     @Override
     public String fly() {
-
         return new String("is able to fly");
     }
 }

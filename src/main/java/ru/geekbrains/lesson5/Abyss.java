@@ -9,7 +9,6 @@ public class Abyss extends Obstacle {
     }
 
     @Override
-
     public String action(Contestant contestants) {
 
             if (contestants instanceof AbleToFly) {

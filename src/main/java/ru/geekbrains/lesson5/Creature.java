@@ -16,7 +16,6 @@ public class Creature implements Contestant {
         this.continueCompetition = true;
         this.distanceMaxLimit = distanceMaxLimit;
         this.heightMaxLimit = heightMaxLimit;
-
     }
 
     public Creature(String species, String name, int swimmingDistance) {

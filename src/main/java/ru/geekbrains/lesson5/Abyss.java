@@ -6,7 +6,6 @@ public class Abyss extends Obstacle {
 
     public Abyss(int flyHeight) {
         this.flyHeight = flyHeight;
-
     }
 
     @Override

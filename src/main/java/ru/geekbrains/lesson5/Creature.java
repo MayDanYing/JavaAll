@@ -10,7 +10,6 @@ public class Creature implements Contestant {
     private int flyingHeight;
     boolean continueCompetition;
 
-
     public Creature(String species, String name, int distanceMaxLimit, double heightMaxLimit) {
         this.species = species;
         this.name = name;

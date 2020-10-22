@@ -1,5 +1,4 @@
 package ru.geekbrains.lesson5;
-
 public class Bird extends Creature implements AbleToFly {
 
     public Bird(String name) {

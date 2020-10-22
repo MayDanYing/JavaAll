@@ -9,6 +9,5 @@ public class HumanBeing extends Creature implements AbleToSwim{
     @Override
     public String swim() {
         return new String("is able to swim");
-
     }
 }

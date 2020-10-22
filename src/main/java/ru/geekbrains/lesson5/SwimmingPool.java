@@ -1,5 +1,4 @@
 package ru.geekbrains.lesson5;
-
 public class SwimmingPool extends Obstacle {
 
     private int swimDist;

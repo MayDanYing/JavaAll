@@ -28,5 +28,4 @@ public class Competitors {
     public void Info() {
           System.out.print(results);
     }
-
 }

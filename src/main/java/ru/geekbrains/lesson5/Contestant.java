@@ -1,6 +1,7 @@
 package ru.geekbrains.lesson5;
 
 public interface Contestant {
+
     public Contestant[] contestants = new Contestant[0];
 
     public String jump(double height);

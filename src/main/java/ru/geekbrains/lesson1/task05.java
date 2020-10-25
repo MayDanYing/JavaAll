@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.lesson1;
 import java.util.Random;
 
 //*Написать метод, которая получает на вход массив и перемешивает

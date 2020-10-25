@@ -4,8 +4,8 @@ public class SizeException extends Exception {
 
     int n, m;
 
-    public SizeException(int row, int column) {
-        super("Неправильно ввели количество строк и столбцов. Массив должен быть 4на4. Вы ввели " + row + ", column " + column);
+    public SizeException(int n, int m) {
+        super("Неправильно ввели количество строк и столбцов. Массив должен быть 4на4. Вы ввели " + n + ", column " + m);
         this.n = n;
         this.m = m;
     }

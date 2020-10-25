@@ -1,7 +1,6 @@
 package ru.geekbrains.lesson6;
 
 public class SizeException extends Exception {
-
     int n, m;
 
     public SizeException(int n, int m) {

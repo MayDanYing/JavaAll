@@ -1,5 +1,4 @@
 package ru.geekbrains.lesson6;
-
 public class SizeException extends Exception {
     int n, m;
 

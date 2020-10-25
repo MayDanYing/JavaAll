@@ -1,5 +1,4 @@
 package ru.geekbrains.lesson6;
-
 public class DataException extends Exception {
         int n, m;
 

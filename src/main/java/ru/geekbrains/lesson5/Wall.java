@@ -1,9 +1,6 @@
-package ru.geekbrains.lesson4;
-
+package ru.geekbrains.lesson5;
 public class Wall extends Obstacle {
-
     private double height;
-
     public Wall(double height) {
         this.height = height;
     }
@@ -13,4 +10,5 @@ public class Wall extends Obstacle {
     {
         return contestants.jump(height);
     }
+
 }

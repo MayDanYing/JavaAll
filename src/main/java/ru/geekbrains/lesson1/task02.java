@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.lesson1;
 
 
 //Написать реализацию алгоритма сортировки массива методом выбора (selection sort).

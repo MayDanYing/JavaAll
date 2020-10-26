@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.lesson1;
 import java.util.Random;
 
 public class homew1 {

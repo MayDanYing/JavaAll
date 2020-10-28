@@ -15,7 +15,6 @@ package ru.geekbrains.lesson8;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class Main {
     public static void main(String[] args) {
 
@@ -32,7 +31,6 @@ public class Main {
             }
         }
             System.out.println("\n" + catsNames);
-
 
         //Задание 2. Phonebook
 

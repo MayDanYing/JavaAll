@@ -38,7 +38,7 @@ public class Box<T extends Fruit>{
 // Помним про сортировку фруктов: нельзя яблоки высыпать в коробку с апельсинами.
 // Соответственно, в текущей коробке фруктов не остается, а в другую перекидываются объекты,
 // которые были в первой;
-    public void moveFruits(Box<? super T> secondBox) {
+    public void moveFruits(Box<T> secondBox) {
         secondBox.packOfFruits.addAll(this.packOfFruits);
         packOfFruits.clear();
     }

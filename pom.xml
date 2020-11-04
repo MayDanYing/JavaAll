@@ -13,4 +13,11 @@
         <maven.compiler.target>11</maven.compiler.target>
         <maven.build.sourceEncoding>UTF-8</maven.build.sourceEncoding>
     </properties>
-</project>
+    <dependencies>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+    </dependencies>
+    </project>
